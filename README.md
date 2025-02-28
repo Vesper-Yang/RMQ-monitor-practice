@@ -1,2 +1,5 @@
 # RMQ-monitor-practice
-# RMQ-monitor-practice
+
+npm init
+
+npm run dev
