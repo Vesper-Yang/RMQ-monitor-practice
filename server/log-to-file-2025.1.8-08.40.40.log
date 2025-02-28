@@ -1,0 +1,4582 @@
+{
+  time: "2025/1/8 08:40:43",
+  routing_key: "server.process.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:40:43"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:40:43",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:40:45",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:40:45"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:40:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:40:53",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:40:53"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:40:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:40:55",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:40:55"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:40:55",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:09",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:09"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:13",
+  routing_key: "server.messagebus",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:13"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:13",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:15",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:15"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:17",
+  routing_key: "server.transport.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:17"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:23",
+  routing_key: "server.process.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.process.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:23"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:27",
+  routing_key: "server.process.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:27"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:27",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:31",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:31"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:33",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:33"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:33",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:35",
+  routing_key: "server.process.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:35"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:43",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:43"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:43",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:45",
+  routing_key: "server.transport.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:45"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:51",
+  routing_key: "server.process.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:51"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:53",
+  routing_key: "server.messagebus",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:53"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:55",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:55"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:55",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:57",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:57"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:41:59",
+  routing_key: "server.process.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:41:59"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:41:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:03",
+  routing_key: "server.process.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:03"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:05",
+  routing_key: "server.transport.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:05"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:07",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:07"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:07",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:09",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:09"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:11",
+  routing_key: "server.messagebus",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:11"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:11",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:15",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:15"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:17",
+  routing_key: "server.process.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:17"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:19",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:19"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:23",
+  routing_key: "server.transport.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:23"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:25",
+  routing_key: "server.process.in",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:25"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:25",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:27",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:27"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:27",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:31",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:31"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:35",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:35"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:37",
+  routing_key: "server.messagebus",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:37"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:39",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:39"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:41",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:41"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:41",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:47",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:47"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:49",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:49"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:49",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:51",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:51"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:55",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:55"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:55",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:57",
+  routing_key: "server.process.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:57"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:42:59",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:42:59"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:42:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:03",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:03"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:05",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:05"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:07",
+  routing_key: "server.transport.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:07"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:07",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:09",
+  routing_key: "server.messagebus",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:09"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:13",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:13"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:13",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:15",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:15"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:17",
+  routing_key: "server.transport.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:17"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:19",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:19"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:21",
+  routing_key: "server.process.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:21"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:21",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:23",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:23"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:25",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:25"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:25",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:31",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:31"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:35",
+  routing_key: "server.process.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:35"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:39",
+  routing_key: "server.messagebus",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:39"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:43",
+  routing_key: "server.process.in",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:43"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:43",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:49",
+  routing_key: "server.transport.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:49"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:49",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:51",
+  routing_key: "server.messagebus",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:51"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:53",
+  routing_key: "server.process.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:53"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:43:57",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:43:57"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:43:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:01",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:01"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:01",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:03",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:03"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:05",
+  routing_key: "server.process.in",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:05"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:07",
+  routing_key: "server.messagebus",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:07"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:07",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:11",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:11"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:11",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:17",
+  routing_key: "server.messagebus",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:17"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:21",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:21"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:21",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:33",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:33"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:33",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:35",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:35"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:39",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:39"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:41",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:41"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:41",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:45",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:45"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:47",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:47"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:49",
+  routing_key: "server.messagebus",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:49"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:49",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:55",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:55"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:55",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:57",
+  routing_key: "server.messagebus",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:57"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:44:59",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:44:59"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:44:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:03",
+  routing_key: "server.process.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:03"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:09",
+  routing_key: "server.transport.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:09"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:11",
+  routing_key: "server.messagebus",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:11"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:11",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:15",
+  routing_key: "server.process.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:15"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:19",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:19"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:21",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:21"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:21",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:23",
+  routing_key: "server.messagebus",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:23"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:31",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:31"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:35",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:35"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:37",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:37"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:39",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:39"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:47",
+  routing_key: "server.messagebus",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:47"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:51",
+  routing_key: "server.messagebus",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:51"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:53",
+  routing_key: "server.process.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:53"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:45:57",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:45:57"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:45:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:01",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:01"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:01",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:03",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:03"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:09",
+  routing_key: "server.messagebus",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:09"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:11",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:11"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:11",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:13",
+  routing_key: "server.messagebus",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:13"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:13",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:15",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:15"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:17",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:17"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:19",
+  routing_key: "server.process.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.process.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:19"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:25",
+  routing_key: "server.transport.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:25"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:25",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:31",
+  routing_key: "server.process.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:31"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:33",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:33"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:33",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:37",
+  routing_key: "server.process.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:37"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:39",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:39"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:41",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:41"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:41",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:45",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:45"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:47",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:47"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:51",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:51"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:46:59",
+  routing_key: "server.process.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:46:59"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:46:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:05",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:05"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:07",
+  routing_key: "server.transport.out",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:07"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:07",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:09",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:09"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:11",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:11"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:11",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:13",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:13"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:13",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:15",
+  routing_key: "server.process.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:15"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:19",
+  routing_key: "server.process.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:19"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:21",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:21"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:21",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:23",
+  routing_key: "connect.192.168.111.164.client.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "connect.192.168.111.164.client.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:23"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:25",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:25"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:25",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:29",
+  routing_key: "server.process.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:29"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:29",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:35",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:35"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:37",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:37"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:43",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:43"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:43",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:47",
+  routing_key: "server.process.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:47"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:53",
+  routing_key: "server.process.in",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:53"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:55",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:55"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:55",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:57",
+  routing_key: "server.messagebus",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:57"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:57",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:47:59",
+  routing_key: "server.transport.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:47:59"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:47:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:03",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:03"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:03",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:05",
+  routing_key: "server.process.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.process.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:05"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:15",
+  routing_key: "server.process.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.process.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:15"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:15",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:19",
+  routing_key: "server.transport.out",
+  content_type: "Cashed",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:19"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:19",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:29",
+  routing_key: "server.messagebus",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:29"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:29",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:35",
+  routing_key: "server.process.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:35"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:37",
+  routing_key: "192.168.111.164.client.in",
+  content_type: "DeviceRegMsg",
+  message_body: {
+    rk: "192.168.111.164.client.in",
+    ct: "DeviceRegMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:37"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:39",
+  routing_key: "server.transport.out",
+  content_type: "ImageCheckTaskMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageCheckTaskMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:39"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:39",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:43",
+  routing_key: "server.messagebus",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:43"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:43",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:45",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:45"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:53",
+  routing_key: "192.168.111.164.client.out",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "192.168.111.164.client.out",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:53"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:48:59",
+  routing_key: "server.process.in",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:48:59"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:48:59",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:01",
+  routing_key: "server.process.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:01"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:01",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:05",
+  routing_key: "server.process.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.process.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:05"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:05",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:07",
+  routing_key: "server.transport.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:07"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:07",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:09",
+  routing_key: "server.messagebus",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:09"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:09",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:17",
+  routing_key: "server.transport.out",
+  content_type: "ImageJudgeMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageJudgeMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:17"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:17",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:21",
+  routing_key: "server.transport.out",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.transport.out",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:21"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:21",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:23",
+  routing_key: "server.process.in",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.process.in",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:23"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:23",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:31",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:31"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:31",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:33",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "BizCreatEventMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "BizCreatEventMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:33"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:33",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:35",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:35"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:35",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:37",
+  routing_key: "server.messagebus",
+  content_type: "UploadImageEchoMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "UploadImageEchoMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:37"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:37",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:45",
+  routing_key: "server.messagebus",
+  content_type: "ImageReadyMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "ImageReadyMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:45"
+    },
+    image_id: "5678",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:45",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:47",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.out",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.out",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:47"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:47",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:49",
+  routing_key: "5B97-ED2E-B98E-E7EE binding.dev.in",
+  content_type: "Cashed",
+  message_body: {
+    rk: "5B97-ED2E-B98E-E7EE binding.dev.in",
+    ct: "Cashed",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:49"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:49",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:51",
+  routing_key: "server.messagebus",
+  content_type: "FileTransportTaskFinishMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "FileTransportTaskFinishMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:51"
+    },
+    image_id: "91011",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:51",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
+{
+  time: "2025/1/8 08:49:53",
+  routing_key: "server.messagebus",
+  content_type: "UploadImageMsg",
+  message_body: {
+    rk: "server.messagebus",
+    ct: "UploadImageMsg",
+    header: {
+      src: "server",
+      time: "2025/1/8 08:49:53"
+    },
+    image_id: "1234",
+    user_id: "user001",
+    image_type: "JPEG",
+    judge: "2025/1/8 08:49:53",
+    result: "KEEP",
+    tag: {
+      type: 0,
+      sub_type: 0,
+      x: 316,
+      y: 128,
+      width: 129,
+      height: 87,
+      view_id: 0
+    },
+    image_path: "/path/to/image"
+  }
+}
+-----------------------------------------------------
